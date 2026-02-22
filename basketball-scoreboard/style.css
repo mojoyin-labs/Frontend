@@ -1,0 +1,66 @@
+/* colors:
+background-color: #1B244A
+number-color: #F94F6D
+buttons: #9AABD8
+*/
+
+@font-face {
+  font-family: "Timer";
+  src: url(fonts/CursedTimer.ttf);
+}
+
+body { 
+  color: white;
+  background-color: #1B244A;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;             /* full viewport height */
+  margin: 0;                 /* remove default spacing */
+}
+
+p{
+  background-color: #080001;
+  padding: 40px 65px;
+  font-size: 60px;
+  color: #F94F6D;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+button{
+  border: 1px solid #9AABD8;
+  font-family: inherit;
+  font-size: 20px;
+  padding: 10px;
+  color: #9AABD8;
+  background-color: #1B244A;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#btnNew{
+  margin: 20px;
+  padding: 10px 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#outline{
+  width: 800px;
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Timer";
+}
