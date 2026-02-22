@@ -3,7 +3,6 @@
   font-family: "Cabinet";
 }
 body {
-  margin: 0;
   font-family: "Cabinet";
 }
 
@@ -18,14 +17,19 @@ h2{
   text-align: center;
 }
 
-/* .space-grotesk{
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-} */
+button{
+  color: white;
+  font-family: inherit;
+  padding: 10px 20px;
+  background-color: #1178ff;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: bold;
+}
 
 .nav-bar{
+  margin: 0;
   display: flex;
   padding: 10px;
   justify-content: center;
@@ -54,13 +58,6 @@ h2{
   font-family: inherit;
   cursor: pointer;
 }
-
-/* .input{
-  height: 25px;
-  width: 200px;
-  border: 1.5px solid #1178ff;
-  border-radius: 5px;
-} */
 
 .image{
   width: 200px;
