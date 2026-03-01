@@ -4,20 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css" >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Mini-Portfolio Build</title>
 </head>
 <body>
-  <section>
+  <section class="header">
     <h2>About</h2>
     <p>Welcome to my frontend projects portfolio. Here you'll find a collection of web projects showcasing HTML, CSS, and JavaScript skills.</p>
   </section>
   
-  <nav>
-    <ul>
-      <li><a href="intro-project/">Intro-project</a></li>
-      <li><a href="hometown-project/">Hometown</a></li>
-      <li><a href="basketball-scoreboard/">Basketball Scoreboard</a></li>
-    </ul>
-  </nav>
+  <section class="projects">
+    <div class="card">
+      <img src="images/intro-cover.png" class="cover" />
+      <h3 class="title">Intro-project</h3>
+      <p class="about-project">This project shows my basic reset on becoming a better developer</p>
+      <button class="btn-project"><a href="intro-project/">See More</a></button>
+    </div>
+    <div class="card">
+      <img src="images/hometown-cover.png" class="cover" />
+      <h3 class="title">Hometown</h3>
+      <p class="about-project">This project shows fun details about my hometown, I'll be your guide, more info in project page.</p>
+      <button class="btn-project"><a href="hometown-project/">See More</a></button>
+    </div>
+    <div class="card">
+      <img src="images/scoreboard-cover.png" class="cover" />
+      <h3 class="title">Basketball Scoreboard</h3>
+      <p class="about-project">This project shows a styled cool basketball scoreboard using basic javascript knowledge.</p>
+      <button class="btn-project"><a href="basketball-scoreboard/">See More</a></button>
+    </div>
+  </section>
 </body>
 </html>
